@@ -21,19 +21,17 @@ void setup()
  delay(200);
 }
 
-
-
 void loop()
 {
-    Serial.println(“Time for medicine”);
+    Serial.println(“morning medicine”);
     delay(2000);
     medicineTray(45);
 
-    Serial.println(“Time for medicine”);
+    Serial.println(“afternoon medicine”);
     delay(2000);
     medicineTray(90);
   
-    Serial.println(“Time for medicine”);
+    Serial.println(“night medicine”);
     delay(2000);
     medicineTray(135);      
 
